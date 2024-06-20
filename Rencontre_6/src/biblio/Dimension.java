@@ -5,8 +5,7 @@ public class Dimension {
     private float largeur;
 
     public Dimension() {
-        hauteur = 0;
-        largeur = 0;
+        this(0, 0);
     }
 
     public Dimension(float hauteur, float largeur) {

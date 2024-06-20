@@ -1,10 +1,7 @@
 package biblio;
 
 public class Livre {
-    // 1. Attributs de classe
-    private static Date datePubPlusRecente = new Date();
-    private static Date datePubPlusAncienne = new Date();
-    // 2. Attributs d'instance
+    // 1. Attributs d'instance
     private String isbn;
     private String titre;
     private String nomAuteur;
@@ -12,6 +9,9 @@ public class Livre {
     private short nbrPages;
     private Dimension dimension;
     private Date datePublication;
+    // 2. Attributs de classe
+    private static Date datePubPlusRecente = new Date();
+    private static Date datePubPlusAncienne = new Date();
 
     // 3. Constructeurs
     public Livre() {}
