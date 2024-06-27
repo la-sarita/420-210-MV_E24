@@ -12,7 +12,7 @@ public class Vehicule {
         this.annee = annee;
     }
 
-    void afficherInfo() {
+    protected void afficherInfo() {
         System.out.println("Marque: " + marque + ", Année: " + annee);
     }
 }

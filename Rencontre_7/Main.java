@@ -9,7 +9,7 @@ public class Main {
         maVoiture.setMarque("Toyota");
         maVoiture.setAnnee(2022);
         maVoiture.setNombreDePortes(4);
-        maVoiture.afficherInfoVoiture(); // Sortie: Marque: Toyota, Année: 2022, Nombre de portes: 4
+        maVoiture.afficherInfo(); // Sortie: Marque: Toyota, Année: 2022, Nombre de portes: 4
 
         Animal animal = new Animal();
         Mammifere mammifere = new Mammifere();

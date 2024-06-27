@@ -7,8 +7,9 @@ public class Voiture extends Vehicule {
         this.nombreDePortes = nombreDePortes;
     }
 
-    public void afficherInfoVoiture() {
-        afficherInfo(); // Appel de la méthode de la superclasse
+    @Override
+    public void afficherInfo() {
+        super.afficherInfo(); // Appel de la méthode de la superclasse
         System.out.println("Nombre de portes: " + nombreDePortes);
     }
 }
