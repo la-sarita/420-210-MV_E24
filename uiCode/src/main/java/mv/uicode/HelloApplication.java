@@ -11,6 +11,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
+import org.controlsfx.control.spreadsheet.Grid;
 
 import java.io.IOException;
 
@@ -36,7 +37,10 @@ public class HelloApplication extends Application {
         grid.getChildren().add(btn2);
 
         btn2.setOnAction(actionEvent -> {
+            Button btn = (Button) btn2;
             System.out.println("Button 2 clicked");
+            GridPane parent = (GridPane) btn.getParent();
+            System.out.println(((TableView)(parent.getChildren().get(0))).getColumns());
         });
 
         // Configurer le style
