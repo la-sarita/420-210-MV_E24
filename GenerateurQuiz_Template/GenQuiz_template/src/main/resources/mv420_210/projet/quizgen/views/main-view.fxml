@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #eae6ed;"
+      xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="mv420_210.projet.quizgen.controllers.MainViewController">
+   <children>
+      <Label text="Que voulez-vous faire?">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" spacing="30.0">
+         <children>
+            <Button id="createQuizBtn" alignment="CENTER" mnemonicParsing="false" onAction="#createQuizBtnClicked" style="-fx-background-color: #c9dbbf;" text="Créer un quiz" textFill="#163803">
+               <opaqueInsets>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button id="modifyQuizBtn" alignment="CENTER" mnemonicParsing="false" onAction="#modifyQuizBtnClicked" style="-fx-background-color: #fab084;" text="Modifier un quiz" textFill="#faf7f5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button id="takeQuizBtn" alignment="CENTER" mnemonicParsing="false" onAction="#takeQuizBtnClicked" style="-fx-background-color: #c9daf5;" text="Tester un quiz" textFill="#0d2e63">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="60.0" left="60.0" right="60.0" top="60.0" />
+         </padding></HBox>
+   </children>
+</VBox>

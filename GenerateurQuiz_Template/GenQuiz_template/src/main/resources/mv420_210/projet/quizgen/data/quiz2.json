@@ -1,0 +1,34 @@
+{
+  "titre" : "Quiz 2",
+  "description" : "Connaissance générale",
+  "dureeMin" : 5,
+  "total" : 5,
+  "questions" : [ {
+    "type" : "ReponseCourte",
+    "enonce" : "Nommez un élément chimique qui commence par 'C'.",
+    "penderation" : 2,
+    "reponse" : "Charbon"
+  }, {
+    "type" : "VraiFaux",
+    "enonce" : "String est un type immutable",
+    "penderation" : 1,
+    "reponse" : false
+  }, {
+    "type" : "ChoixUnique",
+    "enonce" : "Quelle est la position du premier élément d'un tableau ?",
+    "penderation" : 1,
+    "options" : [ "2", "1", "0" ],
+    "reponse" : "0"
+  }, {
+    "type" : "ChoixMultiple",
+    "enonce" : "Quelles sont les nombres pairs ?",
+    "penderation" : 1,
+    "options" : [ "2", "4", "5", "7" ],
+    "reponse" : ["2", "4"]
+  }, {
+    "type" : "Numeric",
+    "enonce" : "Quel est le nombre de mois?",
+    "penderation" : 1,
+    "reponse" : 12
+  } ]
+}
